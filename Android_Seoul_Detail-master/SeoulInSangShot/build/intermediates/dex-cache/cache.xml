@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\301\Desktop\beom_Detail\Android_Seoul_Detail-master\SeoulInSangShot\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\301\Desktop\beom_Detail\Android_Seoul_Detail-master\SeoulInSangShot\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9f559e103d007ae208d11b7f7f7114407031d2e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\301\Desktop\beom_Detail\Android_Seoul_Detail-master\SeoulInSangShot\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c333d6ef71b40a9f6bedc22dd905ca2686526949">
+        <dex dex="C:\Users\301\Desktop\beom_Detail\Android_Seoul_Detail-master\SeoulInSangShot\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4e3b9db9b9e3651afeac314acb072581e6d41744\classes.dex" />
+    </item>
+
+</items>
