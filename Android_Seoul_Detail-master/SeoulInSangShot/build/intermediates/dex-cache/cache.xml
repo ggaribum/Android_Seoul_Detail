@@ -3,12 +3,48 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\301\.android\build-cache\04a88fad3bcb712681938b356773d73377bf2e42\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f229aae65e61058c88acb3ad14978b8997c77608">
+        <dex dex="C:\Users\301\Desktop\beom_Detail\Android_Seoul_Detail-master\SeoulInSangShot\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4aebfa3abe0d959ad48b35cb5c9eacf8ef0a3b28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\301\Desktop\beom_Detail\Android_Seoul_Detail-master\SeoulInSangShot\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\301\Desktop\beom_Detail\Android_Seoul_Detail-master\SeoulInSangShot\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9f559e103d007ae208d11b7f7f7114407031d2e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\301\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="C:\Users\301\Desktop\beom_Detail\Android_Seoul_Detail-master\SeoulInSangShot\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_be1b7a70be47095e4306b52ccead31b849c88ff7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\301\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="C:\Users\301\Desktop\beom_Detail\Android_Seoul_Detail-master\SeoulInSangShot\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.11.0_e4246df5b94e0943e00b2478741ba96c49ac5154\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\301\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\301\Desktop\beom_Detail\Android_Seoul_Detail-master\SeoulInSangShot\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.6.0_432ea26299e9509edffbe96f2ed27ea404bec265\classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -3,9 +3,9 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView4"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/comment_RecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="댓글" />
+        android:layout_height="match_parent" />
+
 </LinearLayout>

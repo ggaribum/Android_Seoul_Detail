@@ -78,8 +78,9 @@ public class DetailActivity extends AppCompatActivity {
         bundle.putString("time", getIntent().getStringExtra("time"));
         bundle.putString("tip", getIntent().getStringExtra("tip"));
 
-        //fragment info로 파라미터(bundle) 전송
+        //fragment info,fragment Comment로 파라미터(bundle) 전송
         fragmentInfo.setArguments(bundle);
+        fragmentComment.setArguments(bundle);
 
 
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());

@@ -240,6 +240,8 @@ public class Fragment_Detail_Info extends Fragment {
             baseDate2=baseDate;
             baseTime2="0800";
         }
+        Log.v("HERE_HERE",baseDate2);
+        Log.v("HERE_HERE",baseTime2);
         Call<Weather2VO> call2=service.loadWeather2(serviceKey,nx,ny,baseDate2,baseTime2,"300","json");
         call2.enqueue(new Callback<Weather2VO>() {
             @Override
