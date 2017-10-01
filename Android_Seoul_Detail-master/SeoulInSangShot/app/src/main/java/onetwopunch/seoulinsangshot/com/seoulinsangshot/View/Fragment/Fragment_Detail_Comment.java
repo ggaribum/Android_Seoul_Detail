@@ -1,5 +1,6 @@
 package onetwopunch.seoulinsangshot.com.seoulinsangshot.View.Fragment;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.annotation.Nullable;
@@ -10,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -51,10 +53,13 @@ public class Fragment_Detail_Comment extends Fragment {
     RecyclerView rv_comment;
     LinearLayoutManager manager;
     Adapter_Comment adapter_comment;
+    Button bt;
+    EditText et;
 
     public CommentVO repoList;
     public ArrayList<Model_Comment> tempList;
     public ArrayList<Model_Comment> commentList;
+
 
     public Fragment_Detail_Comment() {
 
@@ -69,7 +74,7 @@ public class Fragment_Detail_Comment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_comment, container, false);
+        final ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_comment, container, false);
 
        /* qnaTv = (TextView) rootView.findViewById(R.id.QnATextView);
         qnaBt = (Button) rootView.findViewById(R.id.QnAButton);
@@ -78,6 +83,24 @@ public class Fragment_Detail_Comment extends Fragment {
 
         rv_comment=(RecyclerView)rootView.findViewById(R.id.comment_RecyclerView);
 
+        ///////////////////버튼 클릭시 edit창 보이게하고 키보드도 나오면서 에디트text밑으로 가게 하기////////////
+        bt=(Button) rootView.findViewById(R.id.testButton);
+        et=(EditText) rootView.findViewById(R.id.testEditText);
+        bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                et.setVisibility(View.VISIBLE);
+                et.requestFocus();
+                InputMethodManager imm = (InputMethodManager) getActivity().getSystemService  (Context.INPUT_METHOD_SERVICE);
+                imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, InputMethodManager.HIDE_IMPLICIT_ONLY);
+
+            }
+        });
+        //이제 에디트 텍스트 옆에 버튼 달아서 버튼 클릭시 (V로 바뀌고 다시 submit 버튼 나와도 되고)post되면서
+        //키보드랑 에디트창 사라지고
+        //원래 버튼으로 복귀.
+
+        //////////////////////////////////
 
         AndroidNetworking.initialize(rootView.getContext());
 

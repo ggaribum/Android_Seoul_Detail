@@ -23,7 +23,9 @@
             android:name=".View.PrimaryActivity"
             android:label="@string/title_activity_primary"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".View.DetailActivity" />
+        <activity android:name=".View.DetailActivity"
+            android:windowSoftInputMode="adjustPan"
+            />
         <activity android:name=".View.SelectActivity" />
         <activity android:name=".View.TipActivity"></activity>
     </application>
