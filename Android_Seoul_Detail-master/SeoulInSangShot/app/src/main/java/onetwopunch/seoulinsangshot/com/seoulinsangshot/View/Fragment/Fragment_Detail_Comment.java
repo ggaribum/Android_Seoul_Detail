@@ -135,7 +135,7 @@ public class Fragment_Detail_Comment extends Fragment {
 
 
 
-       /* //POST 하는 부분. 서버-DB 쪽이랑 최대한 변수 맞춰서 정리하자.
+        /*//POST 하는 부분. 서버-DB 쪽이랑 최대한 변수 맞춰서 정리하자.
         qnaBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

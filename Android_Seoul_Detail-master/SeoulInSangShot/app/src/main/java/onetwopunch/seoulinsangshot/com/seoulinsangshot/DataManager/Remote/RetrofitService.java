@@ -23,7 +23,7 @@ public interface RetrofitService {
     @GET("service/SecndSrtpdFrcstInfoService2/ForecastGrib")
     Call<Weather1VO> loadWeather1(@Query("ServiceKey") String serviceKey, @Query("nx") String nx, @Query("ny") String ny, @Query("base_date") String base_date, @Query("base_time") String base_time, @Query("_type") String type);
 
-    @GET("service/SecndSrtpdFrcstInfoService2/ForecastSpaceData")
+        @GET("service/SecndSrtpdFrcstInfoService2/ForecastSpaceData")
     Call<Weather2VO> loadWeather2(@Query("ServiceKey") String serviceKey, @Query("nx") String nx, @Query("ny") String ny, @Query("base_date") String base_date, @Query("base_time") String base_time, @Query("numOfRows")String numOfRows, @Query("_type") String type);
 
 }
